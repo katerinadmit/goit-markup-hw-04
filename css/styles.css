@@ -299,6 +299,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 /* Footer section */
 .footer {
@@ -469,3 +470,29 @@ background-position: center;
 background-size: cover;
 }
 
+/* socials icons */
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.socials-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #AFB1B8;
+  background-color: #FFFFFF;
+  border-radius: 50%;  
+ 
+}
+.socials-icon {
+  fill: currentColor;
+}
+.socials-link:hover,
+.socials-link:focus{
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
