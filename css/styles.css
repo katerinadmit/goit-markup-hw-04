@@ -322,12 +322,13 @@ p {
   color: #757575;
   margin-bottom: 16px;
 }
-/* --------------------ПОСТОЯННІЕ КЛИЕНТІ ---------------------------*/
+/* ----------------Постоянные клиенты---------------------*/
 .clients {
   display: flex;
   flex-direction: column;
   align-items: center;
-margin-top: 94px;
+margin-top: 104px;
+margin-bottom: 104px;
 }
 
 .clients-title {
