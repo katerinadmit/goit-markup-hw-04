@@ -164,7 +164,7 @@ p {
 }
 .header-contact-icon:hover,
 .header-contact-icon:focus{
-  fill: var(--accent-txt-cl);
+  
 }
 .contact-item{
   display: flex;
