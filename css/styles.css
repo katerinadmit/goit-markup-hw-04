@@ -103,9 +103,8 @@ p {
   margin-right: 0px;
 }
 .header-contact-icon {
-  fill: currentColor;
+  fill: currentColor; 
 }
-
 .header-contact-iconk:hover,
 .header-contact-icon:focus {
   color: #FFFFFF;
@@ -137,6 +136,19 @@ p {
 }
 .header-link-current {
   color: var(--accent-txt-cl);
+}
+.header-contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.header-contact-icon:hover,
+.header-contact-icon:focus{
+  fill: var(--accent-txt-cl);
 }
 .contact-link {
   font-weight: 500;
@@ -592,14 +604,4 @@ margin-bottom: 104px;
   align-items: center;
     justify-content: center;
     background-color: #F5F4FA;
-}
-.header-contact-icon{
-  display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
-
 }
