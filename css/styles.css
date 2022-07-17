@@ -387,6 +387,7 @@ margin-bottom: 104px;
 
 .clients-link:hover,
 .clients-link:focus {
+  
   border: 1px solid var(--accent-txt-cl);
 }
 
@@ -608,7 +609,7 @@ margin-bottom: 104px;
   background-color: #ffffff;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
-  
+  cursor: pointer;
 }
 .project-item:nth-child(3n) {
   margin-right: 0;
