@@ -493,6 +493,8 @@ margin-bottom: 104px;
 .footer-socials{
   display: flex;
   flex-direction: column;
+  margin-left: 70px;
+  padding: 0;
 }
 .footer-socials-title{
   
