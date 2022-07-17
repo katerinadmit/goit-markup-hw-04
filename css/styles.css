@@ -137,7 +137,7 @@ p {
   
 }
 .header-contact-icon{
-  fill: var(--accent-txt-cl);
+  
 }
 .contact-link{
   display: flex;
@@ -442,7 +442,7 @@ margin-bottom: 104px;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer;  
 }
 .logo-accent-dark {
   color: #ffffff;
@@ -481,15 +481,16 @@ margin-bottom: 104px;
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .footer-socials-title{
+  margin-left: 50px;
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
+    text-transform: uppercase;  
     color: #FFFFFF;
 }
 .footer-socials-list{
