@@ -149,11 +149,14 @@ p {
 }
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--accent-txt-cl);
+  color: #2196F3;
+  
 }
 
 .contact-item{
   display: flex;
+  align-items: center;
+  justify-content: center;
     font-family: var(--main-font-family);  
     font-weight: 500;
     font-size: 14px;
@@ -162,9 +165,8 @@ p {
     margin-left: 30px;
 }
 .contact-item:hover,
-.contact-item:focus{
-  fill: var(--accent-txt-cl);
-
+.contact-item:focus {
+  fill: #2196F3;;
 }
 /* Main section */
 .main-section {
@@ -381,15 +383,9 @@ margin-bottom: 104px;
 }
 
 .clients-item {
-  
   margin-left: 30px;
 }
 
-.clients-link:hover,
-.clients-link:focus {
-  
-  border: 1px solid var(--accent-txt-cl);
-}
 
 .clients-item:first-child {
   margin-left: 0;
@@ -404,14 +400,20 @@ margin-bottom: 104px;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
+    color: #AFB1B8;
+    background-color: 
 }
-
+.clients-link:hover,
+.clients-link:focus {
+  color: #2196F3;
+  border: 1px solid var(--accent-txt-cl);
+}
 .clients-logo {
   width: 106px;
   height: 60px;
   align-items: center;
   justify-content: center;
-  fill: #AFB1B8;
+  fill: currentColor;
 }
 
 .clients-item:hover .clients-logo,
@@ -420,11 +422,9 @@ margin-bottom: 104px;
 }
 /* Footer section */
 .footer {
-  background-color: #2f303a;
-  
+  background-color: #2f303a;  
 }
-.footer-section {
-  
+.footer-section {  
   padding-top: 60px;
   padding-bottom: 60px;  
  
@@ -459,6 +459,7 @@ margin-bottom: 104px;
   color: var(--accent-txt-cl);
 }
 
+
 .footer-link-current {
   color: var(--accent-txt-cl);
 }
@@ -480,6 +481,25 @@ margin-bottom: 104px;
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
+.footer-socials-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.1);;
+}
+.footer-socials-icon{
+  fill: #FFFFFF;
+}
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+
 .distribution{
   display: flex;
   align-items: baseline;
