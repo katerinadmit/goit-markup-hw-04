@@ -135,7 +135,9 @@ p {
   height: 16px;
   margin-right: 10px;  
 }
-
+.header-contact-icon {
+  fill: currentColor;
+}
 .contact-link{
   display: flex;
     align-items: center;
@@ -152,7 +154,9 @@ p {
   color: #2196F3;
   
 }
-
+.header-contact-icon{
+  fill: currentColor;
+}
 .contact-item{
   display: flex;
   align-items: center;
@@ -401,8 +405,7 @@ margin-bottom: 104px;
     justify-content: center;
     align-items: center;
     color: #AFB1B8;
-    background-color: 
-}
+    }
 .clients-link:hover,
 .clients-link:focus {
   color: #2196F3;
@@ -480,6 +483,9 @@ margin-bottom: 104px;
 
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
+}
+.footer-socials{
+  display: block;
 }
 .footer-socials-link{
   display: flex;
