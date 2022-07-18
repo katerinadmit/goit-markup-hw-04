@@ -534,11 +534,12 @@ margin-bottom: 104px;
     color: #FFFFFF;
     display: flex;
       align-items: center;
-      justify-content: center;
+      
 }
 .footer-socials-list{
   display: flex;
     margin-top: 20px;
+    padding: 0;
 }
 .footer-socials-item{
   display: flex;
@@ -551,6 +552,7 @@ margin-bottom: 104px;
   cursor: pointer;
     border-radius: 50%;
     margin-left: 10px;
+    
 }
 .footer-socials-item:hover,
 .footer-socials-item:focus{
